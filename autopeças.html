@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacaré Autopeças - Sua Loja de Autopeças</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐊</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-dragon"></i>
+                <span>Jacaré Autopeças</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Encontre as Melhores Autopeças</h1>
+            <p>Qualidade garantida para seu veículo com preços imbatíveis</p>
+            <div class="search-box">
+                <input type="text" placeholder="Busque por peça, marca ou modelo...">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categorias">
+        <div class="container">
+            <h2>Categorias Principais</h2>
+            <div class="categoria-grid">
+                <div class="categoria-item">
+                    <div class="categoria-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Motor</h3>
+                    <p>Peças para motor e transmissão</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categoria-icon">
+                        <i class="fas fa-car-crash"></i>
+                    </div>
+                    <h3>Freios</h3>
+                    <p>Sistema de freios completo</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categoria-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Elétrica</h3>
+                    <p>Componentes elétricos</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categoria-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Suspensão</h3>
+                    <p>Amortecedores e molas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <h2>Produtos em Destaque</h2>
+            <div class="produto-grid">
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <div class="produto-badge">-20%</div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Óleo Motor 5W30</h3>
+                        <p class="produto-desc">Óleo sintético premium para proteção superior do motor</p>
+                        <div class="produto-price">
+                            <span class="price-old">R$ 89,90</span>
+                            <span class="price-new">R$ 71,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-compact-disc"></i>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Pastilha de Freio</h3>
+                        <p class="produto-desc">Pastilha cerâmica para frenagem segura e durável</p>
+                        <div class="produto-price">
+                            <span class="price-new">R$ 125,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-car-battery"></i>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Bateria 60Ah</h3>
+                        <p class="produto-desc">Bateria automotiva com garantia de 18 meses</p>
+                        <div class="produto-price">
+                            <span class="price-new">R$ 299,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Filtro de Ar</h3>
+                        <p class="produto-desc">Filtro de ar de alta performance para maior potência</p>
+                        <div class="produto-price">
+                            <span class="price-new">R$ 45,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="produto-badge">Novo</div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Amortecedor Dianteiro</h3>
+                        <p class="produto-desc">Amortecedor a gás para máximo conforto</p>
+                        <div class="produto-price">
+                            <span class="price-new">R$ 189,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <div class="produto-placeholder">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <div class="produto-info">
+                        <h3>Lâmpada LED H7</h3>
+                        <p class="produto-desc">Lâmpada LED super branca para farol</p>
+                        <div class="produto-price">
+                            <span class="price-new">R$ 79,90</span>
+                        </div>
+                        <button class="btn-add-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2>Sobre a Jacaré Autopeças</h2>
+                    <p>Com mais de 15 anos de experiência no mercado automotivo, somos referência em qualidade e confiabilidade. Nossa missão é fornecer as melhores autopeças com preços justos e atendimento excepcional.</p>
+                    <div class="sobre-stats">
+                        <div class="stat-item">
+                            <h3>50.000+</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10.000+</h3>
+                            <p>Produtos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>15+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-store"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Autopeças, 123<br>Centro, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contato@jacarepecas.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário</h3>
+                            <p>Seg-Sex: 8h às 18h<br>Sáb: 8h às 14h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <input type="tel" placeholder="Seu Telefone" required>
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Jacaré Autopeças</h3>
+                    <p>Sua loja de confiança para autopeças de qualidade.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Freios</a></li>
+                        <li><a href="#">Elétrica</a></li>
+                        <li><a href="#">Suspensão</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Atendimento</h3>
+                    <p><i class="fas fa-phone"></i> (11) 3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> contato@jacarepecas.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jacaré Autopeças. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
